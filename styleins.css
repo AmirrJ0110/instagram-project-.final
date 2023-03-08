@@ -1,0 +1,103 @@
+@@ -0,0 +1,102 @@
+body {
+  background-color: rgb(247, 243, 239);
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+
+  margin: 0 auto;
+}
+.main {
+  margin-top: 60px;
+}
+.main-left,
+.main-right {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.main-left {
+  width: 54%;
+  padding-top: 20px;
+  margin-right: -40px;
+}
+.main-right {
+  width: 37%;
+}
+.reg-form,
+.login-page {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 194, 194);
+  padding: 30px;
+  color: rgb(107, 106, 105);
+  border-radius: 3px;
+}
+.reg-form p a {
+  color: rgb(33, 33, 240);
+}
+.login-page p a {
+  color: rgb(12, 126, 202);
+}
+
+.reg-form form input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  border: 1px solid rgb(206, 197, 197);
+  outline: 1 rgb(236, 234, 229);
+  outline-color: rgb(147, 147, 156);
+}
+.reg-form p:first-of-type {
+  font-weight: bold;
+  color: rgb(107, 106, 105);
+}
+
+.reg-form form input:last-of-type {
+  margin-top: 13px;
+}
+.reg-form input:last-of-type {
+  color: white;
+  background-color: rgb(109, 214, 255);
+  font-weight: bold;
+}
+.login-page {
+  background-color: white;
+  padding: 18px;
+}
+.login-page {
+  color: black;
+}
+
+.main-right div {
+  margin-bottom: 10px;
+}
+.app-links img {
+  width: 130px;
+  vertical-align: middle;
+}
+.app-links img:first-of-type {
+  width: 155px;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  margin-right: 8px;
+  color: rgb(107, 106, 105);
+}
+.footer div {
+  margin-bottom: 20px;
+}
